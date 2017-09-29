@@ -20,3 +20,6 @@ def index(request):
 
 def health(request):
     return HttpResponse(PageView.objects.count())
+
+def test(request):
+    return HttpResponse('this is a test')
