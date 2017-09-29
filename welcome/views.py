@@ -19,7 +19,7 @@ def index(request):
     })
 
 def health(request):
-    return HttpResponse('Health test')
+    return HttpResponse('how r u?')
 #    return HttpResponse(PageView.objects.count())
 
 def test(request):
