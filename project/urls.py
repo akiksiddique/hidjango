@@ -6,10 +6,10 @@ from app.views import *
 urlpatterns = [
     # Examples:
     # url(r'^$', 'project.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
+    url(r'^app/', include('app.urls')),
 
-    url(r'^$', index),
-    url(r'^me$', me),
+#    url(r'^$', index),
+#    url(r'^me$', me),
 #    url(r'^health$', health),
 #    url(r'^admin/', include(admin.site.urls)),
 ]
