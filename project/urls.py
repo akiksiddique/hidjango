@@ -10,6 +10,5 @@ urlpatterns = [
 
     url(r'^$', index),
     url(r'^health$', health),
-    url(r'^test$', test),
     url(r'^admin/', include(admin.site.urls)),
 ]
