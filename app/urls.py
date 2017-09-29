@@ -5,4 +5,5 @@ from app.views import index,me
 urlpatterns = patterns('',
     url(r'^$', index, name='index'),
     url(r'^me/$', me, name='me'),
+    url(r'^mother/$', me, name='mother'),    
 )

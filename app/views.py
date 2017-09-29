@@ -5,3 +5,5 @@ def index(request):
     return HttpResponse('this is index page')
 def me(request):
     return HttpResponse('I am Akik')
+def mother(request):
+    return HttpResponse('My mother is joly')
