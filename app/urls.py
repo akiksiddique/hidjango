@@ -6,5 +6,6 @@ urlpatterns = patterns('',
     url(r'^$', index),
     url(r'^me/$', me),
     url(r'^job/$', job),
-    url(r'^mother/$', mother),    
+    url(r'^mother/$', mother),  
+    url(r'^dist/$', dist),
 )

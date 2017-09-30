@@ -9,3 +9,5 @@ def mother(request):
     return HttpResponse('My mother is joly')
 def job(request):
     return HttpResponse('I work at IBBL')
+def dist(request):
+    return HttpResponse('My home district is faridpur')
