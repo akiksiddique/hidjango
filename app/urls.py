@@ -5,5 +5,6 @@ from app.views import index,me
 urlpatterns = patterns('',
     url(r'^$', index, name='index'),
     url(r'^me/$', me, name='me'),
+    url(r'^job/$', job, name='job'),
     url(r'^mother/$', mother, name='mother'),    
 )

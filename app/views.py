@@ -7,3 +7,5 @@ def me(request):
     return HttpResponse('I am Akik')
 def mother(request):
     return HttpResponse('My mother is joly')
+def job(request):
+    return HttpResponse('I work at IBBL')
