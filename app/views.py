@@ -11,3 +11,5 @@ def job(request):
     return HttpResponse('I work at IBBL')
 def dist(request):
     return HttpResponse('My home district is faridpur')
+def age(request):
+    return HttpResponse('My age is 35'

@@ -8,4 +8,5 @@ urlpatterns = patterns('',
     url(r'^job/$', job),
     url(r'^mother/$', mother),  
     url(r'^dist/$', dist),
+    url(r'^age/$', age),
 )
